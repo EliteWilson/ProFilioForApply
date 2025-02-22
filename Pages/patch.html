@@ -7,8 +7,8 @@
     <title>Mr.Wilson@ProFillio</title>
     <meta name="theme-color" content="#B94FFF" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#222222" media="(prefers-color-scheme: dark)">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/index.css">
     <style>
         body {
             background-image: url(/assets/JDbg.jpg);
@@ -17,12 +17,22 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
+        
+        .test {
+            font-size: 10vw;
+            color: rgb(226, 1, 1);
+            margin: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 
 <body>
-
-    <button onclick="window.location.href = 'Pages/patch.html';">Check Patch</button>
+    <div class="test">PatchA.5</div>
+    <button onclick="window.location.href = '/index.html'">Go to HomePage</button>
 </body>
 
 </html>
